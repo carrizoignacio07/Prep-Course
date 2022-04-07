@@ -70,16 +70,16 @@ function colors(color) {
     case "blue":
       console.log("This is blue");
       break;
-    case "red"
+    case "red":
       console.log("This is red");
       break;
-    case "green"
+    case "green":
       console.log("This is green");
       break;
-    case "orange"
+    case "orange":
       console.log("This is orange");
       break;
-    default
+    default:
       console.log("Color not found");
     }
   }
