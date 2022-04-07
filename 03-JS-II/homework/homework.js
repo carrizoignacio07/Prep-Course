@@ -71,21 +71,18 @@ function colors(color) {
       console.log("This is blue");
       break;
     case "red"
-      consolo.log("This is red");
+      console.log("This is red");
       break;
     case "green"
-      consolo.log("This is green");
+      console.log("This is green");
       break;
     case "orange"
-      consolo.log("This is orange");
+      console.log("This is orange");
       break;
     default
-      consolo.log("Color not found");
+      console.log("Color not found");
     }
   }
-
-
-}
 
 function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
