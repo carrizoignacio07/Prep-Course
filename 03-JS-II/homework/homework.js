@@ -68,16 +68,16 @@ function colors(color) {
   //Usar el statement Switch.
   switch (color) {
     case "blue":
-      console.log("This is blue");
+      console.log("This is " + color);
       break;
     case "red":
-      console.log("This is red");
+      console.log("This is red " + color);
       break;
     case "green":
-      console.log("This is green");
+      console.log("This is green " + color);
       break;
     case "orange":
-      console.log("This is orange");
+      console.log("This is orange" ) + color;
       break;
     default:
       console.log("Color not found");
