@@ -71,13 +71,13 @@ function colors(color) {
       return "This is " + color;
       break;
     case "red":
-      return "This is red " + color;
+      return "This is " + color;
       break;
     case "green":
-      return "This is green " + color;
+      return "This is " + color;
       break;
     case "orange":
-      return "This is orange" + color;
+      return "This is " + color;
       break;
     default:
       return "Color not found";
@@ -89,9 +89,9 @@ function esDiezOCinco(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (numero === 10 || 5) {
-    return "true";
+    return true;
   } else {
-    return "false";
+    return false;
   }
 }
 
@@ -100,9 +100,9 @@ function estaEnRango(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (numero < 50 && numero > 20) {
-    return "true";
+    return true;
   } else {
-    return "false";
+    return false;
   }
 }
 
@@ -115,9 +115,9 @@ function esEntero(numero) {
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
   if (numero === int) {
-    return "true";
+    return true;
   } else {
-    return "false";
+    return false;
   }
 }
 
