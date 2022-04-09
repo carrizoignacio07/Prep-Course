@@ -132,7 +132,7 @@ function fizzBuzz(numero) {
     return "fizz";
   } else if (numero % 5 === 0) {
     return "buzz";
-  } else if (numero % 5 === 0|| numero % 3 === 0) {
+  } else if (numero % 5 === 0 && numero % 3 === 0) {
     return "fizzbuzz";
   } else{
     return numero;
