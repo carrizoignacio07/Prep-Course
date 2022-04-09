@@ -88,7 +88,7 @@ function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (numero === 10 || 5) {
+  if (numero === 10 || numero === 5) {
     return true;
   } else {
     return false;
@@ -114,7 +114,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if (numero === int) {
+  if (Math.floor(numero)) {
     return true;
   } else {
     return false;
