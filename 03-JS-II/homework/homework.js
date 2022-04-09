@@ -92,6 +92,7 @@ function esDiezOCinco(numero) {
     return "true";
   } else {
     return "false";
+  }
 }
 
 function estaEnRango(numero) {
@@ -102,6 +103,7 @@ function estaEnRango(numero) {
     return "true";
   } else {
     return "false";
+  }
 }
 
 function esEntero(numero) {
@@ -212,4 +214,4 @@ module.exports = {
   tablaDelSeis,
   tieneTresDigitos,
   doWhile
-};
+}
