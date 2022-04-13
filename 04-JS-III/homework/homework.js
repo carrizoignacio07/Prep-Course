@@ -3,15 +3,13 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
-  var array = [1, 2];
-  return array [1];
+  console.log(array[1]);
 }
 
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  var array = [1, 2, 3];
   return array[array.length - 1];
 }
 
@@ -61,6 +59,11 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+  var letra = palabras [0];
+  for (var i = 1; i < palabras.length; i++) {
+    letra = palabras [0] + palabras [i];
+  }
+  console.log(letra);
 }
 
 
@@ -68,6 +71,13 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+  for (var i = 1; i < array.lenght; i++) {
+    if (array [elemento] === true) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
 
 
@@ -75,6 +85,7 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  var numeros = 
 }
 
 
