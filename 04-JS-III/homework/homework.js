@@ -28,7 +28,7 @@ function incrementarPorUno(array) {
   // Tu código:
   for (var i = 1; i >= 0; i++) {
     var enter = 1;
-    var array[] = enter;
+    var array = [enter];
     enter = enter + 1;
   }
 }
