@@ -3,21 +3,21 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
-  console.log(array[1]);
+  return array[1];
 }
 
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  console.log(array[array.length - 1]);
+  return array[array.length - 1];
 }
 
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
-  console.log(array.length);
+  return array.length;
 }
 
 
@@ -31,7 +31,7 @@ function incrementarPorUno(array) {
     var array = [enter];
     enter = enter + 1;
   }
-  console.log(array);
+  return array;
 }
 
 
