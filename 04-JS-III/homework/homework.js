@@ -29,7 +29,7 @@ function incrementarPorUno(array) {
   for (var i = 0; i < array.length; i++) {
     array[i] = array[i] + 1;
   }
-      return array;
+  return array;
 }
 
 
@@ -58,6 +58,9 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+  while (palabras.length > 0) {
+    var pepa = palabras.pop();
+  }
 }
 
 
@@ -66,7 +69,7 @@ function arrayContiene(array, elemento) {
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
   for (var i = 0; i < array.length; i++) {
-    if (array == elemento) {
+    if (array[i] == elemento) {
       return true;
     } else {
       return false;
