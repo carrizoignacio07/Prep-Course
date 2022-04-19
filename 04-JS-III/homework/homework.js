@@ -3,7 +3,7 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
-  return array[1];
+  return array[0];
 }
 
 
@@ -49,7 +49,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
-  array.unshift = elemento;
+  array.unshift(elemento);
   return array;
 }
 
@@ -60,11 +60,10 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  var letra = palabras [0];
-  for (var i = 1; i < palabras.length; i++) {
-    letra = palabras [0] + palabras [i];
+  for (var i = 0; i == palabras.lenght; i++) {
+    var hello = palabras[0];
+    hello = palabras [0] + " " + palabras [i];
   }
-  console.log(letra);
 }
 
 
