@@ -59,7 +59,7 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
   while (palabras.length > 0) {
-    var pepa = palabras.pop();
+    var pepa = palabras.pop() + " ";
   }
   return pepa;
 }
