@@ -62,7 +62,7 @@ function dePalabrasAFrase(palabras) {
   // Tu código:
   for (var i = 0; i == palabras.lenght; i++) {
     var hello = palabras[0];
-    hello = palabras [0] + " " + palabras [i];
+    hello = palabras[0] + " " + palabras[i];
   }
 }
 
@@ -71,8 +71,8 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-  for (var i = 1; i < array.lenght; i++) {
-    if (array [elemento] === true) {
+  for (var i = 0; i = array.lenght; i++) {
+    if (array === elemento) {
       return true;
     } else {
       return false;
