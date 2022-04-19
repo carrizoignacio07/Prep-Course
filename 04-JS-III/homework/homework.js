@@ -61,6 +61,7 @@ function dePalabrasAFrase(palabras) {
   while (palabras.length > 0) {
     var pepa = palabras.pop();
   }
+  return pepa;
 }
 
 
