@@ -26,7 +26,7 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  for (var i = 0; i >= 10; i++) {
+  for (var i = 0; i < array.lenght; i++) {
     var enter = 1;
     array = enter;
     enter = enter + 1;
@@ -60,7 +60,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  for (var i = 0; i == palabras.lenght; i++) {
+  for (var i = 0; i < palabras.lenght; i++) {
     var hello = palabras[0];
     hello = palabras[0] + " " + palabras[i];
   }
@@ -71,7 +71,7 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-  for (var i = 0; i = array.lenght; i++) {
+  for (var i = 0; i < array.lenght; i++) {
     if (array === elemento) {
       return true;
     } else {
