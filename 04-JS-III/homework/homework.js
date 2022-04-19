@@ -26,7 +26,7 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  for (var i = 0; i < array.lenght; i++) {
+  for (var i = 0; i < array.length; i++) {
     array[i] = array[i] + 1;
     return array[i];
   }
@@ -58,9 +58,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  for (var i = 0; i < palabras.lenght; i++) {
-    var hello = palabras[i] + " ";
-  }
+  while (palabras.length)
 }
 
 
