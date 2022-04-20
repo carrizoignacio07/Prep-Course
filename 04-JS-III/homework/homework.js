@@ -58,10 +58,19 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  while (palabras.length > 0) {
-    var pepa = palabras.pop() + " ";
+  for (var i = palabras.length; i == 0; i--) {
+    var pepe = "";
+    if (palabras.length == 0) {
+      return pepe;
+    } else {
+      pepe = palabras.pop() + " ";
+    }
   }
-  return pepa;
+
+ // while (palabras.length > 0) {
+ //   var pepa = palabras.pop() + " ";
+ // }
+ // return pepa;
 }
 
 
@@ -70,7 +79,7 @@ function arrayContiene(array, elemento) {
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
   for (var i = 0; i < array.length; i++) {
-    if (array[i] == elemento) {
+    if (array[i] = elemento) {
       return true;
     } else {
       return false;
