@@ -79,7 +79,7 @@ function arrayContiene(array, elemento) {
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
   for (var i = array.length - 1; i < 0; i--) {
-    if (array[i] = elemento) {
+    if (array[i] == elemento) {
       return true;
     } else {
       return false;
