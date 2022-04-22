@@ -88,7 +88,7 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
-  for (var i = 1; i < numeros.length; i++) {
+  for (var i = 0; i < numeros.length; i++) {
     var suma = numeros[0];
     var total = suma + numeros[i];
     suma = total;
@@ -136,7 +136,7 @@ function multiplicarArgumentos() {
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
-
+  return arreglo.lenght;
 }
 
 
@@ -145,7 +145,11 @@ function diaDeLaSemana(numeroDeDia) {
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
-  
+  if (num1 = 2 || 3 || 4 || 5 || 6) {
+    return "Es dia laboral";
+  } else {
+    return "Es fin de semana";
+  }
 } 
 
 
