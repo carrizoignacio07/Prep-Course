@@ -60,11 +60,7 @@ function dePalabrasAFrase(palabras) {
   // Tu código:
   for (var i = 0; i < palabras.length; i++) {
     var pepe = palabras.pop();
-    if (palabras.length == 0) {
-      return pepe;
-    } else {
-      pepe = palabras.pop() + " ";
-    }
+    return pepe;
   }
 
  // while (palabras.length > 0) {
