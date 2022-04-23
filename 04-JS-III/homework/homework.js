@@ -59,7 +59,7 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
   for (var i = 0; i < palabras.length; i++) {
-    var pepe = palabras.pop();
+    var pepe = palabras.pop() + " ";
     return pepe;
   }
 
@@ -75,7 +75,7 @@ function arrayContiene(array, elemento) {
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
   for (var i = 0; i < array.length; i++) {
-    if (array[i] == elemento) {
+    if (array == elemento) {
       return true;
     } else {
       return false;
