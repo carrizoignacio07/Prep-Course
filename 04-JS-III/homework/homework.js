@@ -165,7 +165,7 @@ function todosIguales(arreglo) {
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
   for (var i = 0; i < arreglo.length; i++) {
-    if (arreglo[i] !== arreglo[i+1]) {
+    if(arreglo[i] !== arreglo[i+1]) {
       return false;
     }
   }
