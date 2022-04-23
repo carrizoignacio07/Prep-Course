@@ -216,8 +216,8 @@ function mayorACien(array) {
   // Tu código:
   for (var i = 0; i < array.length; i++) {
     var mayor = [];
-    if (array[] > 100) {
-      mayor[] = array;
+    if (array[i] > 100) {
+      mayor[i] = array;
     }
     return mayor;
   }
