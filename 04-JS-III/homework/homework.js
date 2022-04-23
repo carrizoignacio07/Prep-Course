@@ -162,7 +162,13 @@ function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
-  
+  for (var i = 0; i < arreglo.length; i++) {
+    if (arreglo = arreglo) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 } 
 
 
@@ -171,6 +177,36 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
+  for (var i = 0; i < array.length; i++) {
+    var meses = []; 
+    if (array = "Enero") {
+      meses.push("Enero");
+    } else if (array = "Febrero") {
+      meses.push("Febrero");
+    } else if (array = "Marzo") {
+      meses.push("Marzo");
+    } else if (array = "Abril") {
+      meses.push("Abril");
+    } else if (array = "Mayo") {
+      meses.push("Mayo");
+    } else if (array = "Junio") {
+      meses.push("Junio");
+    } else if (array = "Julio") {
+      meses.push("Julio");
+    } else if (array = "Agosto") {
+      meses.push("Agosto");
+    } else if (array = "Septiembre") {
+      meses.push("Septiembre");
+    } else if (array = "Octubre") {
+      meses.push("Octubre");
+    } else if (array = "Noviembre") {
+      meses.push("Noviembre");
+    } else if (array = "Diciembre") {
+      meses.push("Diciembre");
+    } else {
+      return "No se encontraron los meses pedidos";
+    }
+  }
 }
 
 
