@@ -165,12 +165,11 @@ function todosIguales(arreglo) {
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
   for (var i = 0; i < arreglo.length; i++) {
-    if (arreglo = arreglo) {
-      return true;
-    } else {
+    if (arreglo[i] !== arreglo[i+1]) {
       return false;
     }
   }
+  return true
 } 
 
 
@@ -179,35 +178,17 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
-  for (var i = 0; i < array.length; i++) {
-    var meses = []; 
-    if (array = "Enero") {
-      meses.push("Enero");
-    } else if (array = "Febrero") {
-      meses.push("Febrero");
-    } else if (array = "Marzo") {
-      meses.push("Marzo");
-    } else if (array = "Abril") {
-      meses.push("Abril");
-    } else if (array = "Mayo") {
-      meses.push("Mayo");
-    } else if (array = "Junio") {
-      meses.push("Junio");
-    } else if (array = "Julio") {
-      meses.push("Julio");
-    } else if (array = "Agosto") {
-      meses.push("Agosto");
-    } else if (array = "Septiembre") {
-      meses.push("Septiembre");
-    } else if (array = "Octubre") {
-      meses.push("Octubre");
-    } else if (array = "Noviembre") {
-      meses.push("Noviembre");
-    } else if (array = "Diciembre") {
-      meses.push("Diciembre");
-    } else {
-      return "No se encontraron los meses pedidos";
+  var nuevoArray = [];
+  for(let i= 0; i<array.length; i++) {
+    if(array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre") {
+      nuevoArray.push(array[i]);
     }
+  }
+  if(nuevoArray.length < 3) {
+    return "No se encontraron los meses pedidos";
+  }
+  else {
+      return nuevoArray;
   }
 }
 
@@ -216,13 +197,13 @@ function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
+  var nuevoArray = [];
   for (var i = 0; i < array.length; i++) {
-    var mayor = [];
     if (array[i] > 100) {
-      mayor[i] = array;
+      nuevoArray.push(array[i]);
     }
-    return mayor;
   }
+  return nuevoArray;
 }
 
 
