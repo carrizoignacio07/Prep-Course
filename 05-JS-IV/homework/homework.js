@@ -107,7 +107,7 @@ function actualizarPassword(usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevaPassword"
   // Devuelve el objeto
   // Tu código:
-  usuario[nuevaPassword] = nuevaPassword;
+  usuario[nuevaPassword] = nuevaPassword + nuevaPassword;
   return usuario;
 }
 
@@ -116,7 +116,7 @@ function agregarAmigo(usuario, nuevoAmigo) {
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
   // // Tu código:
-  usuario[amigos] = nuevoAmigo;
+  usuario[amigos[amigos - 1]] = nuevoAmigo;
   return usuario;
 }
 
