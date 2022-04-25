@@ -10,7 +10,7 @@ function crearGato(nombre, edad) {
     nombre: nombre,
     edad: edad,
     meow: function() {
-      console.log("Meow!");
+      return "Meow!";
     }
   };
   return iuiu;
@@ -22,7 +22,7 @@ function agregarPropiedad(objeto, property) {
   // Devuelve el objeto
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
-  objeto['property'] = null;
+  objeto.property = null;
   return objeto;
 }
 
