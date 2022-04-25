@@ -95,10 +95,11 @@ function verificarPassword(usuario, password) {
   // // Tu código:
   if (usuario[password] = password) {
     return true;
-  } else if (usuario[password] == password){
-    return true;
-  } else {
-    return false;
+    if (usuario[password] == password){
+      return true;
+    } else {
+      return false;
+    }
   }
 }
 
