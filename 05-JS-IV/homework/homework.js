@@ -95,7 +95,7 @@ function verificarPassword(usuario, password) {
   // // Tu código:
   if (usuario[password] = password) {
     return true;
-    if (usuario[password] == password){
+    if (usuario[password] === password){
       return true;
     } else {
       return false;
@@ -107,7 +107,7 @@ function actualizarPassword(usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevaPassword"
   // Devuelve el objeto
   // Tu código:
-  usuario = nuevaPassword;
+  usuario[nuevaPassword] = nuevaPassword;
   return usuario;
 }
 
