@@ -116,6 +116,8 @@ function agregarAmigo(usuario, nuevoAmigo) {
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
   // // Tu código:
+  usuario[amigos.pop()] = nuevoAmigo;
+  return usuario;
 }
 
 function pasarUsuarioAPremium(usuarios) {
@@ -124,6 +126,10 @@ function pasarUsuarioAPremium(usuarios) {
   // Define cada propiedad "esPremium" de cada objeto como "true"
   // Devuelve el array de usuarios
   // Tu código:
+  for (var i = 0; i < usuarios.length; i++) {
+    usuario[esPremium] = true;
+  }
+  return usuarios;
 }
 
 function sumarLikesDeUsuario(usuario) {
