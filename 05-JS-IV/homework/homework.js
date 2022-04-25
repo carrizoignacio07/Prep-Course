@@ -116,7 +116,7 @@ function agregarAmigo(usuario, nuevoAmigo) {
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
   // // Tu código:
-  usuario[amigos.pop()] = nuevoAmigo;
+  usuario[amigos] = nuevoAmigo;
   return usuario;
 }
 
