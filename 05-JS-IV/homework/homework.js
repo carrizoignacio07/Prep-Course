@@ -93,9 +93,9 @@ function verificarPassword(usuario, password) {
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
   // // Tu código:
-  if (usuario[password] == password) {
+  if (usuario[password] = password) {
     return true;
-  } else {
+  } else if (usuario[password] == password){
     return false;
   }
 }
