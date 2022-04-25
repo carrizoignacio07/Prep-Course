@@ -8,7 +8,7 @@ function crearGato(nombre, edad) {
   // Tu código:
   var iuiu = {
     nombre: nombre,
-    edad: edad;
+    edad: edad,
     meow: function() {
       console.log("Meow");
     }
