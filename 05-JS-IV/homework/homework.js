@@ -136,7 +136,7 @@ function pasarUsuarioAPremium(usuarios) {
   // Devuelve el array de usuarios
   // Tu código:
   for (var i = 0; i < usuarios.length; i++) {
-    usuarios[i][esPremium] = true;
+    usuarios[i].esPremium = true;
   }
   return usuarios;
   // A usuario me falto ponerle [i] y la "S" a usuario
@@ -174,7 +174,7 @@ function agregarMetodoCalculoDescuento(producto) {
     return this.precio - ( this.precio * this.porcentajeDeDescuento );
   };
   return producto;
-  
+
   // var producto = "calcularPrecioDescuento";
   // return producto;
 }
