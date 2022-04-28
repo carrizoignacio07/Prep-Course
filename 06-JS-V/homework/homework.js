@@ -46,6 +46,8 @@ function agregarMetodoPrototype(Constructor) {
   // Agrega un método al Constructor del `prototype`
   // El método debe llamarse "saludar" y debe devolver la string "Hello World!"
   // Tu código:
+
+  // Es el unico ejercicio que hice bien.
   Constructor.prototype.saludar = function(){
     return "Hello World!";
   }
@@ -122,11 +124,18 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //Con esta función vamos a crear una nueva persona a partir de nuestro constructor de persona (creado en el ejercicio anterior)
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
   //Devolver la nueva persona creada
+  const persona = new Persona(nombre, apellido, edad, dir);
+  return persona;
+  //Este ejercicio no lo habia hecho; lo pense, pero necesitaba tener bien el ejercicio de arriba si o si.
 }
   
 function agregarMetodo() {
   //La función agrega un método "datos" a la clase Persona que toma el nombre y la edad de la persona y devuelve: 
   //Ej: "Juan, 22 años"
+  Persona.prototype.datos = function() {
+    return this.nombre + ", " + this.edad + " años";
+  }
+  //X2 Este ejercicio no lo habia hecho; lo pense, pero necesitaba tener bien el ejercicio de arriba si o si.
 }
   
 
