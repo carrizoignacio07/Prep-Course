@@ -8,22 +8,39 @@ function crearUsuario() {
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
   // Tu código:
-  function Usuario() {
-        this.usuario = usuario,
-        this.nombre = nombre,
-        this.email = email,
-        this.password = password
-
-        saludar(){
-          return 'Hola, mi nombre es ' this.nombre;
-      }
+  function Usuario(opciones) {
+    this.usuario = opciones.usuario;
+    this.nombre = opciones.nombre;
+    this.email = opciones.email;
+    this.password = opciones.password;
   }
-  var waka = new Usuario(opciones);
+
+  Usuario.prototype.saludar = function() {
+    return 'Hola, mi nombre es ' + this.nombre;
+  };
 
   return Usuario;
 
+ }
 
-}
+  // No lo hice tan mal, antes habia puesto al metodo opciones dentro de la clase.
+  // Me falto el opciones.usuario y demas. Lo del prototype creo que lo intente, pero no me acuerdo como.
+  // function Usuario() {
+  //       this.usuario = usuario,
+  //       this.nombre = nombre,
+  //       this.email = email,
+  //       this.password = password
+
+  //       saludar(){
+  //         return 'Hola, mi nombre es ' this.nombre;
+  //     }
+  // }
+  // var waka = new Usuario(opciones);
+
+  // return Usuario;
+
+
+  // }
 
 function agregarMetodoPrototype(Constructor) {
   // Agrega un método al Constructor del `prototype`
