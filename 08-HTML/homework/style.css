@@ -1,10 +1,22 @@
-	<style type="text/css">
-	</style>
-
-	style="color: red"
-
-	style="font-size: 18px;"
-
-	style="background: yellow;" style="height: 600px;" style="width: 500px;"
-
-	style= "width: 400px"
+			h1{
+				color: red;
+			}
+			img{
+				width: 400px;
+			}
+			#thirdDiv{
+				height: 600px;
+				background:  green;
+				width: 500px;
+				padding: 50px;
+				border: 100px blue solid;
+				justify-content: center;
+			}
+			#spanId{
+				font-size: 18px;
+				margin: 50px;
+			}
+			.divClass{
+				text-align: center;
+				justify-content:center;
+			}
